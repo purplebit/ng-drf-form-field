@@ -50,9 +50,9 @@ service.js - responsible for getting the meta data, returns a promise
     ]);
 
 In view you can use <form-field></form-field>, three parameters are required
-	- metadata -- that's the data object received from the server describing how each field look like
-	- key -- tells the directive what field it should render (title, username, duration etc.)
-	- ng-model="formModel" -- tells the directive what object should be used for storing the input values (hardcoded to formModel)
+* **metadata** -- that's the data object received from the server describing how each field look like
+* **key** -- tells the directive what field it should render (title, username, duration etc.)
+* **ng-model="formModel"** -- tells the directive what object should be used for storing the input values (hardcoded to formModel)
 
 If you creating a Label element, ng-model should be skipped.
 
